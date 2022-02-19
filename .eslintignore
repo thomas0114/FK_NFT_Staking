@@ -1,0 +1,8 @@
+.DS_Store
+.next
+node_modules
+data
+public/dist
+ethereum/build
+build
+coverage

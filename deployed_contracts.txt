@@ -1,0 +1,7 @@
+// DApp uses contract addresses located in /config/index.js
+// The following contracts are deployed on ROPSTEN
+
+ORACLE_FACTORY_ADDRESS =    '0x07bf9c485e641c480910989ab849fcfe5af301c9'
+PREDICTION_MARKET_ADDRESS = '0x688cf154b26f214bc68d888e6b0b33870a95d6b9'
+WAGER_FACTORY_ADDRESS =     '0x6b0361c4b7d8f55fed538e5602d16c51801b5e66'
+WAGER_TOKEN_ADDRESS =       '0x0b705a2dc4a71f4b8b1cc285cc5f1ea47f8acce5'

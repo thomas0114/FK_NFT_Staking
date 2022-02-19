@@ -1,0 +1,11 @@
+### <b>Design Pattern Requirements</b>
+  - Implement Circuit Breaker - Wagers can be `Canceled` by the prediction market CEO in case a wager is ambiguous or invalid
+- Other design patterns used:
+  - Fail early and fail loud - reduce unnecessary code execution in the event that an exception will be thrown
+  - Pull over Push Payments - protects against re-entrancy and denial of service attacks
+  - State Machine - Wagers and Oracles have different options depending on current "Stage"
+  - Upgradable - PredictionMarket.sol holds reference to contract factories and token address that can be swapped by the admin.
+- Design patterns not used:
+  - Auto Deprecation - unnecessary to have auto deprecation
+  - Mortal - nobody should have ability to selfdestruct a Wager contract
+  - Speed Bump - trading off speed of transactions not worth adding speed bump for withdraw
